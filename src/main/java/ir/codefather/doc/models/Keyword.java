@@ -7,7 +7,7 @@ import java.util.List;
 @Entity
 public class Keyword {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String label;
 

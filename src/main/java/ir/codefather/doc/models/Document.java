@@ -10,7 +10,7 @@ import java.util.List;
 @Entity
 public class Document {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @DateTimeFormat(pattern = "dd/MM/yyyy")
